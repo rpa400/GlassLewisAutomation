@@ -31,4 +31,4 @@ If I click "Sign In" without entering any details I should get an error displayi
 GIVEN user is on the landing page for Glass Lewis site  
 AND the user selects Viewpoint Voting Platform from the login options in the top right of the page  
 WHEN clicks on the Sign In button without entering any credentials  
-Then the login page should display an error message stating: "The fields USERNAME and PASSWORD are required."
+THEN the login page should display an error message stating: "The fields USERNAME and PASSWORD are required."
